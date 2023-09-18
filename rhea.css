@@ -2,8 +2,28 @@
 
 @import 'gaia';
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 img {
     border-radius: 8px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 3%;
+    background-color: #eb5b20;
+    color: #fff;
+    font-size: 1em;
+}
+
+:root {
+    --color-foreground: #333;
+    --color-highlight: #eb5b20;
+    --color-dimmed: #6b6b6b;
 }
 
 section {
@@ -17,7 +37,7 @@ section {
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion {
-    color: #9a9a9a;
+    color: #6b6b6b;
 }
 
 .hljs-meta {
@@ -26,10 +46,11 @@ section {
 
 code {
     border-radius: 4px;
+    font-family: 'Fira Mono', monospace !important;
 }
 
 pre {
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 h1 {
@@ -37,6 +58,7 @@ h1 {
 }
 
 h2 {
+    margin-top: 0px;
     font-size: 1.5em;
 }
 
