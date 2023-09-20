@@ -3,14 +3,25 @@
 @import 'gaia';
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 img {
     border-radius: 8px;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+    font-family: 'Bitter', sans-serif;
+}
+
+.table td,
+.table th {
+    font-family: 'Bitter', sans-serif;
 }
 
 header {
