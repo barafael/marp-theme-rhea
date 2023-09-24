@@ -15,8 +15,14 @@ h2,
 h3,
 h4,
 h5,
+footer,
 li {
     font-family: 'Bitter', sans-serif;
+}
+
+footer {
+    line-height: 36px;
+    height: 60px;
 }
 
 .table td,
