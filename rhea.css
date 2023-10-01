@@ -5,6 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
 img {
     border-radius: 8px;
 }
