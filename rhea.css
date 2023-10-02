@@ -11,6 +11,11 @@
     gap: 1rem;
 }
 
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+
 img {
     border-radius: 8px;
 }
